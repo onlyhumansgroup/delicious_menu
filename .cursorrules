@@ -1,0 +1,10 @@
+This is a react native app. Primarily this will run on the web.
+Make your views in a way that renders well on both mobile and web screens
+
+We'll be using instantDB as the database. 
+
+We'll be using expo as the framework. 
+
+Write clean, maintainable, and reusable typescript code.
+
+
