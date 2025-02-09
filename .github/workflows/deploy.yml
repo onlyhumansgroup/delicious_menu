@@ -28,12 +28,12 @@ jobs:
         run: yarn install
 
       - name: Build web
-        run: npx expo export:web
+        run: npx expo export
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./web-build
+          publish_dir: ./dist
           user_name: github-actions[bot]
           user_email: github-actions[bot]@users.noreply.github.com
